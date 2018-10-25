@@ -57,8 +57,17 @@
 ##### REST APIs
 * Important Terms:
       * __Resource__: an object representation of something, that can have methods to act on that objects (e.g. a Post resource can have a `.add` method act on it).
+
       * __Collections__: Sets of resources (e.g. Blogs is a collection of Blog resources).
-      * __URL__: A path that locates a resource and enables actions to be performed on the resource.
+      * __URL__: A path that locates a resource and enables actions to be performed on the resource. URLS should only contain resources, rather than actions (_methods_) or verbs (_HTTP methods_)
+
+* What is an API endpoint?
+      * When you have a link, the portion of the url after the first slash: `www.something.com/` would be the endpoint. Think of it as an address that leads you to the resources you are looking for.
+
+* How do Resources and URLs work together?
+      * Resources are always plural in an API endpoint (e.g. Posts).
+      * To access one instance of a resource, you just need topass an ID to the URL.
+
 ##### XML-RPC APIs
 ##### JSON-RPC APIs
 ##### SOAP APIs
