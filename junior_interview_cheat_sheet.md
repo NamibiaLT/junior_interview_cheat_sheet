@@ -9,7 +9,7 @@
 * Define what the user sees in an application
 * In the post page of a blog app, the view would define what the post button will look like, what the header to the post page will look like or even where the text box might be wihin the page.
 
-### Controller
+#### Controller
 * Connects the View logic to the Model. It also defines what each element in the view will do.
 * In the post page of the blog app you created, the controller will post the text once the post button is selected.
 
@@ -47,7 +47,23 @@
 
 #### Local variable
 
+### APIs:
+#### What is an API:
+* An interface that allows developers to interact with data, and one piece of software to interact with another piece of software
+* Stands for Application Programming Interface
+
+#### What are types of APIs
+
+##### REST APIs
+* Important Terms:
+      * __Resource__: an object representation of something, that can have methods to act on that objects (e.g. a Post resource can have a `.add` method act on it).
+      * __Collections__: Sets of resources (e.g. Blogs is a collection of Blog resources).
+      * __URL__: A path that locates a resource and enables actions to be performed on the resource.
+##### XML-RPC APIs
+##### JSON-RPC APIs
+##### SOAP APIs
+
 
 
 ## Practice Problem Resources:
-### Math + Coding resource: [Project Euler](https://projecteuler.net/archives)
+#### Math + Coding resource: [Project Euler](https://projecteuler.net/archives)
