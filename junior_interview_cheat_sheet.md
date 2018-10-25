@@ -57,22 +57,23 @@
 ##### REST APIs
 * Important Terms:
 
-      __Resource__: an object representation of something, that can have methods to act on that objects (e.g. a Post resource can have a ".add" method act on it).
+      __Resource__ : an object representation of something, that can have methods to act on that objects (e.g. a Post resource can have a ".add" method act on it).
 
-      __Collections__: Sets of resources (e.g. Blogs is a collection of Blog resources).
+      __Collections__ : Sets of resources (e.g. Blogs is a collection of Blog resources).
 
-      __URL__: A path that locates a resource and enables actions to be performed on the resource. URLS should only contain resources, rather than actions (_methods_) or verbs (_HTTP methods_)
+      __URL__ : A path that locates a resource and enables actions to be performed on the resource. URLS should only contain resources, rather than actions (_methods_) or verbs (_HTTP methods_)
 
 * What is an API endpoint?
 
       * When you have a link, the portion of the url after the first slash: www.something.com/ would be the endpoint. Think of it as an address, or "path", that leads you to the resources you are looking for.
+
       * The path should always contain the plural of the resources and the HTTP method will tell you the action performed on a resource.
 
 * What is an HTTP method?
 
-      * _Important_: These are sometimes referred to as `verbs`.
+      _Important_ : These are sometimes referred to as `verbs`.
 
-      * HTTP methods, or verbs, indicate what action will be performed on a resource. The main for RESTful APIs are:
+      HTTP methods, or verbs, indicate what action will be performed on a resource. The main for RESTful APIs are:
 
 HTTP Method | CRUD | Collection (ex: /users) | Specific resource (ex: users/123)
 --- | --- | --- | ---
