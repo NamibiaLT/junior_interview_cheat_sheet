@@ -48,3 +48,6 @@
 #### Local variable
 
 
+
+## Practice Problem Resources:
+### Math + Coding resource: [Project Euler](https://projecteuler.net/archives)
